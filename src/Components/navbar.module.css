@@ -1,0 +1,24 @@
+* {
+    font-family: 'Monospace';
+}
+
+#header {
+    background-color: #181818;
+    z-index: 9000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#home {
+    color: white;
+    border: 1px;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#home:hover {
+    color: aqua;
+}

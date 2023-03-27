@@ -1,0 +1,97 @@
+* {
+    font-family: 'Monospace';
+}
+
+.main {
+    margin-top: 40px;
+
+}
+
+#wallpaper {
+    height: 85vh;
+    position: relative;
+    background-image: linear-gradient(#ff95312c, rgb(18, 18, 18)), url('../media/IMG-20230311-WA0012.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5% 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#text_box {
+    color: #e7d003;
+    font-size: 40px;
+}
+
+#text_box .h1 {
+    font-size: 50px;
+}
+
+#content {
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+#writeup {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    width: 100%;
+}
+
+#tab {
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+
+}
+
+#tab2 {
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#people2 {
+    width: 80%;
+}
+
+
+.glowbtn {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222;
+    background-color: #f3f3f3;
+    outline: none;
+    border: none;
+    border-bottom: 0.12em solid #999;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+
+.glowbtn {
+    text-decoration: none;
+    color: #121212;
+    background-color: #989c9c;
+    border-bottom: 0.05em solid #252525;
+    box-shadow: 0 0 1.4em rgba(248, 252, 248, 0.35);
+}
+
+.btm {
+    color: white;
+}
