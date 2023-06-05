@@ -8,9 +8,11 @@
 }
 
 #wallpaper {
-    height: 85vh;
+    height: 100vh;
     position: relative;
-    background-image: linear-gradient(#ff95312c, rgb(18, 18, 18)), url('../media/IMG-20230311-WA0012.jpg');
+    
+    /* background-image: url('../media/kgp_img_1.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(22, 34, 57,0.6)), url('../media/kgp_img_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 5% 70%;
@@ -18,36 +20,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 40rem;
 }
 
-#text_box {
-    color: #e7d003;
-    font-size: 40px;
+#title{
+    color: white;
+    font-size: 4rem;
 }
 
-#text_box .h1 {
-    font-size: 50px;
+
+#slogan{
+    color : #f4a424;
+    font-size: 2rem;
 }
 
 #content {
-    background-color: rgb(18, 18, 18);
+    /* background-color: rgb(18, 18, 18); */
+    /* background-color: #172239; */
+    background-color: rgb(28, 20, 51);
     color: white;
 }
 
 #writeup {
-    background: rgba(255, 255, 255, 0.11);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.363);
+    /* background: rgba(255, 255, 255, 0.11); */
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 1rem;   
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    /* border: 1px solid rgba(255, 255, 255, 0.363); */
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.9);
     width: 100%;
+    font-size: 1.2rem;
 }
 
 #tab {
     width: 80%;
     height: 80%;
     padding: 10%;
-
 }
 
 #tab2 {
@@ -71,7 +81,7 @@
 
 
 .glowbtn {
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #222;

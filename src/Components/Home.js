@@ -10,8 +10,10 @@ const Home = () => {
         <div className={Styles.main}>
             <div id={Styles.wallpaper}>
                 <div id={Styles.text_box} >
-                    <h1>Kharagpur Investments Group</h1>
-                    <Typewriter
+                    <h1 id={Styles.title}>Kharagpur Investments Group</h1>
+                    <h3 id={Styles.slogan}>Your Journey to Financial Freedom Starts Here</h3>
+                    {/* <button>Join us</button> */}
+                    {/* <Typewriter
                         options={{
                             autoStart: true,
                             loop: true,
@@ -23,7 +25,7 @@ const Home = () => {
                                 "Investments..."
                             ],
                         }}
-                    />
+                    /> */}
                 </div>
             </div>
             <div id={Styles.content}>
@@ -56,6 +58,8 @@ const Home = () => {
                         </Col>
                     </Row>
                     <br /><br /><br />
+                    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
+
                     <Row>
                         <Col sx={4} lg={true} id={Styles.section1} >
                             <div id={Styles.imgbox} >
@@ -83,6 +87,7 @@ const Home = () => {
                             </div>
                         </Col>
                     </Row>
+                    </motion.div>
                 </Container>
                 <br /><br /><br />
             </div>

@@ -1,0 +1,107 @@
+import Styles from './Eventslist.module.css'
+import { motion } from 'framer-motion';
+import Typewriter from 'typewriter-effect';
+import { Container, Row, Col } from 'react-bootstrap';
+
+const Eventslist = () => {
+    return(
+        <div>
+            <div id={Styles.wallpaper}>
+                <div id={Styles.text_box} >
+                    <Typewriter
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 40,
+                            strings: [
+                                "Kharagpur Investments Group",
+                                "Events..."
+                            ],
+                        }}
+                    />
+                </div>
+            </div>
+            <div id={Styles.box}>
+                <div id={Styles.card}>
+                    <div id={Styles.info}>
+                        <div id={Styles.name}>John DOA</div>
+                        <div id={Styles.prof}>Designer</div>
+                        <div id={Styles.divider}></div>
+                        <div id={Styles.bio}>
+                            A breif analysis about the chemical sector. Focusing mainly on speciality chemicals.
+                        </div>
+                        <button id={Styles.button}>View Document</button>
+                    </div>
+                    <div id={Styles.photo}></div>
+                    <a id={Styles.a} href='#'>Speciality Chemicals Analysis</a>
+                </div>
+                <div id={Styles.card}>
+                    <div id={Styles.info}>
+                        <div id={Styles.name}>John DOA</div>
+                        <div id={Styles.prof}>Designer</div>
+                        <div id={Styles.divider}></div>
+                        <div id={Styles.bio}>
+                            A breif analysis about the chemical sector. Focusing mainly on speciality chemicals.
+                        </div>
+                        <button id={Styles.button}>View Document</button>
+                    </div>
+                    <div id={Styles.photo}></div>
+                    <a id={Styles.a} href='#'>KIG</a>
+                </div>
+                <div id={Styles.card}>
+                    <div id={Styles.info}>
+                        <div id={Styles.name}>John DOA</div>
+                        <div id={Styles.prof}>Designer</div>
+                        <div id={Styles.divider}></div>
+                        <div id={Styles.bio}>
+                            A breif analysis about the chemical sector. Focusing mainly on speciality chemicals.
+                        </div>
+                        <button id={Styles.button}>View Document</button>
+                    </div>
+                    <div id={Styles.photo}></div>
+                    <a id={Styles.a} href='#'>KIG</a>
+                </div>
+                <div id={Styles.card}>
+                    <div id={Styles.info}>
+                        <div id={Styles.name}>John DOA</div>
+                        <div id={Styles.prof}>Designer</div>
+                        <div id={Styles.divider}></div>
+                        <div id={Styles.bio}>
+                            A breif analysis about the chemical sector. Focusing mainly on speciality chemicals.
+                        </div>
+                        <button id={Styles.button}>View Document</button>
+                    </div>
+                    <div id={Styles.photo}></div>
+                    <a id={Styles.a} href='#'>KIG</a>
+                </div><div id={Styles.card}>
+                    <div id={Styles.info}>
+                        <div id={Styles.name}>John DOA</div>
+                        <div id={Styles.prof}>Designer</div>
+                        <div id={Styles.divider}></div>
+                        <div id={Styles.bio}>
+                            A breif analysis about the chemical sector. Focusing mainly on speciality chemicals.
+                        </div>
+                        <button id={Styles.button}>View Document</button>
+                    </div>
+                    <div id={Styles.photo}></div>
+                    <a id={Styles.a} href='#'>KIG</a>
+                </div><div id={Styles.card}>
+                    <div id={Styles.info}>
+                        <div id={Styles.name}>John DOA</div>
+                        <div id={Styles.prof}>Designer</div>
+                        <div id={Styles.divider}></div>
+                        <div id={Styles.bio}>
+                            A breif analysis about the chemical sector. Focusing mainly on speciality chemicals.
+                        </div>
+                        <button id={Styles.button}>View Document</button>
+                    </div>
+                    <div id={Styles.photo}></div>
+                    <a id={Styles.a} href='#'>KIG</a>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+
+export default Eventslist;

@@ -6,6 +6,7 @@ import Events from './Components/Events';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
+import Eventslist from './Components/Eventslist'
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<AboutUs />}></Route>
         <Route path='/events' element={<Events />}></Route>
         <Route path='/contact' element={<ContactUs />}></Route>
+        <Route path='/Eventslist' element={<Eventslist />}></Route>
       </Routes>
       <Footer />
     </div>
