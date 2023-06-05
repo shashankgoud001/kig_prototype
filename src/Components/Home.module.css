@@ -72,11 +72,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    
 }
 
 #people2 {
     width: 80%;
+    
 }
 
 
@@ -85,21 +86,25 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #222;
-    background-color: #f3f3f3;
+    background-color: #f79f08;
     outline: none;
     border: none;
-    border-bottom: 0.12em solid #999;
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    /* border-bottom: 0.12em solid #999; */
     border-radius: 0.5em;
     cursor: pointer;
+    padding: 0.2rem;
 }
 
 
 .glowbtn {
     text-decoration: none;
-    color: #121212;
-    background-color: #989c9c;
-    border-bottom: 0.05em solid #252525;
-    box-shadow: 0 0 1.4em rgba(248, 252, 248, 0.35);
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-color: transparent;
+    /* border-bottom: 0.05em solid #252525;
+    box-shadow: 0 0 1.4em rgba(248, 252, 248, 0.35); */
 }
 
 .btm {
